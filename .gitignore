@@ -4,3 +4,5 @@
 /venvjq
 /env_sfo
 /simple_deploy_logs
+# Ignore logs from simple_deploy.
+simple_deploy_logs/

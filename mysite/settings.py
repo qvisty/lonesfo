@@ -141,3 +141,4 @@ if 'ON_HEROKU' in os.environ:
     STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
     DEBUG = os.getenv('DEBUG') == 'TRUE'
     SECRET_KEY = os.getenv('SECRET_KEY')
+    ALLOWED_HOSTS.append('floating-harbor-86305.herokuapp.com')

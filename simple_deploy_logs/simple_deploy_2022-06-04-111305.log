@@ -1,0 +1,32 @@
+2022-06-04 11:13:05,750 INFO: Logging run of `manage.py simple_deploy`...
+2022-06-04 11:13:05,750 INFO: CLI args: {'verbosity': 1, 'settings': None, 'pythonpath': None, 'traceback': False, 'no_color': False, 'force_color': False, 'skip_checks': False, 'automate_all': True, 'platform': 'heroku', 'azure_plan_sku': 'F1', 'no_logging': False, 'local_test': False}
+2022-06-04 11:13:05,751 INFO:   Found .git dir at C:\Users\Jesper\Documents\GitHub\DjangoPros40\SFO.
+2022-06-04 11:13:05,752 INFO: Automating all steps...
+2022-06-04 11:13:05,753 INFO:   Targeting Heroku deployment...
+2022-06-04 11:13:05,754 INFO: Configuring project for deployment to Heroku...
+2022-06-04 11:13:05,756 INFO: 
+2022-06-04 11:13:05,756 INFO: The --automate-all flag means simple_deploy will:
+2022-06-04 11:13:05,756 INFO: - Run `heroku create` for you, to create a new Heroku project.
+2022-06-04 11:13:05,756 INFO: - Commit all changes to your project that are necessary for deployment.
+2022-06-04 11:13:05,756 INFO:   - These changes will be committed to the current branch, so you may want
+2022-06-04 11:13:05,756 INFO:     to make a new branch for this work.
+2022-06-04 11:13:05,756 INFO: - Push these changes to Heroku.
+2022-06-04 11:13:05,757 INFO: - Run the initial set of migrations to set up the remote database.
+2022-06-04 11:13:05,757 INFO: - Open your deployed project in a new browser tab.
+2022-06-04 11:13:05,757 INFO: 
+2022-06-04 11:13:05,758 INFO: Are you sure you want to do this? (yes|no) 
+2022-06-04 11:13:08,000 INFO: yes
+2022-06-04 11:13:08,001 INFO:   Running `heroku create`...
+2022-06-04 11:13:10,400 INFO: https://obscure-oasis-50159.herokuapp.com/ | https://git.heroku.com/obscure-oasis-50159.git
+2022-06-04 11:13:10,400 INFO:   Inspecting Heroku app...
+2022-06-04 11:13:11,970 INFO:  »   Warning: heroku update available from 7.59.2 to 7.60.2.
+2022-06-04 11:13:11,970 INFO:  !    No app specified.
+2022-06-04 11:13:11,970 INFO:  !    USAGE: heroku info my-app
+2022-06-04 11:13:11,970 INFO: No Heroku app name has been detected.
+2022-06-04 11:13:11,974 INFO: 
+2022-06-04 11:13:11,974 INFO: - The simple_deploy command assumes you have already run 'heroku create'
+2022-06-04 11:13:11,974 INFO:   to start the deployment process.
+2022-06-04 11:13:11,974 INFO: - Please run 'heroku create', and then run
+2022-06-04 11:13:11,974 INFO:   'python manage.py simple_deploy' again.
+2022-06-04 11:13:11,974 INFO: - If you haven't already done so, you will need to install the Heroku CLI:
+2022-06-04 11:13:11,974 INFO:   https://devcenter.heroku.com/articles/heroku-cli

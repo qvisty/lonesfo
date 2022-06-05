@@ -1,0 +1,7 @@
+2022-06-04 11:03:48,027 INFO: Logging run of `manage.py simple_deploy`...
+2022-06-04 11:03:48,028 INFO: Created C:\Users\Jesper\Documents\GitHub\DjangoPros40\SFO\sfo\simple_deploy_logs.
+2022-06-04 11:03:48,028 INFO: CLI args: {'verbosity': 1, 'settings': None, 'pythonpath': None, 'traceback': False, 'no_color': False, 'force_color': False, 'skip_checks': False, 'automate_all': True, 'platform': 'heroku', 'azure_plan_sku': 'F1', 'no_logging': False, 'local_test': False}
+2022-06-04 11:03:48,029 INFO:   Found .git dir at C:\Users\Jesper\Documents\GitHub\DjangoPros40\SFO.
+2022-06-04 11:03:48,031 INFO: No .gitignore file found; created .gitignore.
+2022-06-04 11:03:48,031 INFO: Added simple_deploy_logs/ to .gitignore.
+2022-06-04 11:03:48,032 INFO: Couldn't find any specified requirements in C:\Users\Jesper\Documents\GitHub\DjangoPros40\SFO.
